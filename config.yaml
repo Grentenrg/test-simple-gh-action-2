@@ -1,0 +1,13 @@
+services:
+  auth:
+    repository: auth
+    registry: ghcr.io/grentenrg/auth
+    values: values.yaml
+  http:
+    repository: http
+    registry: ghcr.io/grentenrg/http
+    values: values.yaml
+  db:
+    repository: db
+    registry: ghcr.io/grentenrg/db
+    values: db-values.yaml
